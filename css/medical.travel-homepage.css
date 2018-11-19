@@ -1,0 +1,92 @@
+@charset 'utf-8';
+.swiper-container {width: 100%;height: 100%;}
+.swiper-slide {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+
+.bgcolor-gray{background-color: #f1f1f1;}
+.display-flex{display: -webkit-box;display: -webkit-flex;display: flex;-webkit-box-align: center;-webkit-align-items: center;align-items: center;}
+#banner {height: 560px;position: relative;overflow: hidden;}
+#banner .swiper-container img {width: 100%;}
+.article-box {padding: 30px 0;}
+.article-box a{text-decoration: none;}
+.article-box .article-list {background-color: #fff;}
+.article-box .article-list .article-img {width: 50%;height: 118px;float: left;margin-right: 15px;}
+.article-box .article-list .article-img img {width: 100%;max-height: 100%;}
+.article-box .article-list .article-text {width: 45%;float: left;padding: 10px 10px 10px 0px;}
+.article-box .article-list .article-text h4{font-size: 16px;color: #333;padding-bottom: 10px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;
+font-weight: bold;}
+.article-box .article-list .article-text .detail-list {font-size: 13px;color: #7a7a7a;overflow: hidden;text-overflow: ellipsis;display: -webkit-box;
+	-webkit-box-orient: vertical;-webkit-line-clamp: 2;}
+.article-box .article-list .article-text .release-time {font-size: 12px;color: #999;padding-top: 10px;display: block;text-align: right;}
+
+.advertising-box {padding: 20px 0;text-align: center;}
+.advertising-box img {width: 100%;height: 100%;}
+.advertising-box .websit{width: 728px;height: 90px;margin: 0 auto;}
+.advertising-box .mobile{width: 320px;height: 50px;margin: 0 auto;}
+
+.classification {padding-top: 40px;}
+.classification .classification-list {padding-bottom: 30px;}
+.classification-list .classification-title{width: 150px;height: 48px;line-height: 48px; display: inline-block;font-size: 28px;color: #fff;
+	background-color: #8b8b8b;margin-bottom: 12px;}
+.classification-list .classification-title a{color: #fff;text-decoration: none;}
+.classification-list .classification-img{height: 190px;overflow: hidden;}
+.classification-list .classification-img img {width: 100%;max-height: 100%;}
+.classification-list .classification-text{font-size: 16px;line-height: 24px;color: #666;height: 190px;overflow: hidden;padding: 10px 0px;}
+
+.medical-service{padding-top: 60px;background-color: #e3e4e8}
+.medical-service .medical-service-title{font-size: 41px;font-weight: 600;padding-bottom: 20px;}
+.medical-service .medical-service-list {padding: 30px 50px;background-color: #fff;margin-bottom: 30px;}
+.medical-service-list .hospital-logo {margin-bottom: 20px;display: block;text-align: center;height: 120px;}
+.medical-service-list .hospital-logo img{max-width: 100%;}
+.medical-service-list h2.medical-hospital{font-size: 25px;color: #474545;margin-bottom: 15px;font-weight: 600;}
+.medical-service-list h4.hospital-address{font-size: 15px;letter-spacing: 1px;color: #b6baba;margin-bottom: 20px;font-weight: 600;}
+.medical-service-list p.hospital-details{font-size: 16px;line-height: 2em;color: #5e5d5d;margin-bottom: 20px;overflow: hidden;text-overflow: ellipsis;
+	display: -webkit-box;-webkit-box-orient: vertical;-webkit-line-clamp: 6;height: 200px;}
+.elementor-icon-wrapper {position: relative;}
+.elementor-icon-wrapper .popover {position: absolute;top: -170px;left: 50%;margin-left: -91px;z-index: 1060;max-width: 276px;padding: 1px;
+	background-color: #fff;border: 1px solid #ccc;border: 1px solid rgba(0,0,0,.2);border-radius: 6px;-webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+	box-shadow: 0 5px 10px rgba(0,0,0,.2);}
+.medical-service-list .elementor-icon-wrapper .elementor-icon {font-size: 50px;color: #00a33e;cursor: pointer;}
+
+
+.health-advertising{padding: 50px 0;}
+.health-info .health-title{width: 160px;height: 48px;background-color: #8b8b8b;line-height: 48px;font-size: 20px;color: #fff;margin-bottom: 30px;
+	display: inline-block;}
+.health-info .health-article li{font-size: 16px;color: #333;line-height: 26px;}
+.health-info .health-article li a{display: block;color: #333;text-decoration: none;}
+.health-info .health-article li a .health-article-list{width: 70%;display: inline-block;white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
+.health-info .health-article li a .edit-time{float: right;font-size: 14px;}
+.health-info .health-article li a:hover{color: #e52d27;}
+.health-advertising .advertising-padd {padding-left: 0;padding-right: 0;text-align: center;}
+.health-advertising .advertising-two {width: 300px;height: 250px;display: inline-block;}
+
+.footer-slider {padding: 50px 0px;}
+.footer-slider-list{margin-bottom: 20px;}
+.footer-slider-list dt{padding-bottom: 20px;}
+.footer-slider-list dd{line-height: 26px;}
+.footer-slider-list dd a{color: #333;text-decoration: none;}
+.footer-slider-list dd a:hover{color: #e52d27;}
+
+
+@media screen and (max-width: 767px){
+	#banner{height: 200px;}
+	.article-box {padding-bottom: 15px;}
+	.article-box .article-list {margin-bottom: 15px;}
+	.classification .classification-list {padding-bottom: 15px;}
+	.classification-list .classification-text {height: 150px}
+	.medical-service .medical-service-list {padding: 20px 15px;}
+	.footer-slider{padding: 30px 0px;}
+	.health-info {margin-bottom: 20px;}
+}
